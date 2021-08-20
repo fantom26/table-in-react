@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 
-const Pagination = (itemsPerPage, totalItems, paginate) => {
+const Pagination = (itemsPerPage) => {
     const pageNumbers = [];
 
     for(let i = 1; i <= Math.ceil(itemsPerPage.totalItems / itemsPerPage.itemsPerPage); i++) {
